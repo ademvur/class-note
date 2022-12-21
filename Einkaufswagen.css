@@ -1,0 +1,58 @@
+table {
+  border-collapse: collapse;
+}
+
+th,
+table tr:nth-last-child(2) {
+  color: white;
+  background-color: #7c4545;
+}
+
+tr:nth-child(even) {
+  background-color: rgb(216, 200, 200);
+}
+table:nth-child(odd) {
+  background-color: #e6c4c4;
+}
+
+tr td:nth-child(2) {
+  width: 150px;
+}
+
+tr td:nth-child(3) {
+  text-align: center;
+}
+
+tr td:nth-child(4) {
+  text-align: right;
+}
+
+tr td:nth-child(5) {
+  text-align: right;
+}
+td,
+th {
+  padding: 6px;
+  border: 1px solid white;
+}
+
+.button-row {
+  background-color: white;
+}
+
+i {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+button {
+  background-color: #761a12;
+  color: white;
+  border: 0;
+  padding: 10px 12px;
+  cursor: pointer;
+}
+
+button:active {
+  scale: 50%;
+}

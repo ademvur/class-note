@@ -1,0 +1,86 @@
+table {
+    border-collapse: collapse;
+}
+
+.liste tr:nth-child(odd) {
+    background-color: rgb(163, 7, 35);
+    color: rgb(248, 245, 244);
+}
+
+.liste tr:nth-child(3) {
+    background-color: bisque;
+}
+
+.liste td:first-child {
+    font-weight: 900;
+    color: cornflowerblue;
+}
+
+.liste td:last-child {
+    color: darkcyan;
+    font-style: italic;
+}
+
+td:hover {
+    background-color: chartreuse;
+}
+
+
+.liste tr:hover {
+    background-color: gray;
+}
+
+#sepet {
+    color: rgb(156, 29, 55);
+    font-size: 40px;
+}
+#sepet:hover{
+    background-color: rgb(212, 137, 212);
+    font-size: 30px;
+}
+
+}
+
+a {
+    color: coral;🧿
+}
+
+a:visited {
+    color: rgb(36, 219, 158);
+
+}
+
+
+a:active {
+    color: cadetblue;
+}
+
+
+
+a:hover {
+    background-color: rgb(212, 137, 212);
+    font-size: 30px;
+}
+
+.liste tr:nth-child(3)::after,
+.liste tr:nth-child(3)::before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 500;
+    content: "🧿";
+    
+}
+
+.liste tr::after {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "🧿";
+    color: red;
+    font-size: 30px;
+}
+
+.liste tr::before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "🧿";
+    color: red;
+    font-size: 30px;
